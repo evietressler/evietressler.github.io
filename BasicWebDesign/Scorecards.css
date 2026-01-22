@@ -1,13 +1,13 @@
 caption, table, td, th {
-  border: 1px solid black;
+	border: 1px solid black;
 }
 caption {
-  font-weight:bold;
-  font-size:2em;
+	font-weight:bold;
+	font-size:2em;
 }
 table {
-  margin:auto;
-  width:20%
+	margin:auto;
+	width:20%
 }
 th {
 	background-color:#A9B3D9;
