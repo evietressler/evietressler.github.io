@@ -4,7 +4,6 @@
     <title>The Imitation Assignment</title>
     <style>
       .penguins {
-        -webkit-filter: sepia(50%);
         filter: sepia(50%);
         border: 1px solid black;
         border-radius: 600px;
@@ -17,27 +16,31 @@
         filter: hue-rotate(90deg);
       }
       .butterfly {
-        -webkit-filter: invert(100%);
         filter: invert(100%);
         border-radius: 100px 0px;
       }
       .football {
-        -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
         border: 27px solid #000;
-        border-image: url(tic-tac-toe.png) 27 round;
+        border-image: url(Documents/tic-tac-toe.png) 27 round;
+      }
+      .theater {
+        filter: blur(5px);
+      }
     </style>
   </head>
   <body>
     <img class="penguins"
     src="Documents/penguins.jpg"/>
-    <img class="seagull"
-    src="Documents/seagull.png"/>
-    <img class="dinosaur"
-    src="Documents/dinosaur.png"/>
-    <img class="butterfly"
-    src="Documents/butterfly.jpg"/>
     <img class="football"
     src="Documents/football_field.jpg"/>
+    <img class="dinosaur"
+    src="Documents/dinosaur.png"/>
+    <img class="seagull"
+    src="Documents/seagull.png"/>
+    <img class="butterfly"
+    src="Documents/butterfly.jpg"/>
+    <img class="theater"
+    src="Documents/theater_stage.jpg"/>
   </body>
 </html>
