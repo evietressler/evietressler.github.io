@@ -3,18 +3,20 @@ caption, table, td, th {
 }
 caption {
   font-weight:bold;
-  text-decoration:underline;
+  font-size:2em;
 }
 table {
   margin:auto;
-  width:25%
+  width:20%
 }
 th {
 	background-color:#A9B3D9;
 	padding:10px;
+	font-size:2em;
 }
 td {
 	padding:5px;
+	font-size:1.5em;
 }
 tr:nth-of-type(even) {
 	background-color:#E9E6ED;
